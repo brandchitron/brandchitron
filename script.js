@@ -12,7 +12,7 @@ async function sendMessage() {
         const response = await fetch('https://api.openai.com/v1/engines/gpt-3.5-turbo/completions', {
             method: 'POST',
             headers: {
-                'Authorization': `Bearer YOUR_API_KEY`,
+                'Authorization': `Bearer sk-proj-YfMKeQpuBB03V11ggQVfT3BlbkFJ87wCXS1v4ZhsOaXEC4PU`,
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
